@@ -8,7 +8,7 @@ import TrendingVideos from './components/TrendingVideos'
 import GamingVideos from './components/GamingVideos'
 import SavedVideos from './components/SavedVideos'
 import NotFound from './components/NotFound'
-import ThemeAndVideoContext from './context/ThemeAndVideoContext'
+import ThemeAndVideoContext from './context/Themeandvideocontext'
 import './App.css'
 
 class App extends Component {

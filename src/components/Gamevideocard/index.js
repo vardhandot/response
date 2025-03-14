@@ -1,4 +1,4 @@
-import ThemeAndVideoContext from '../../context/ThemeAndVideoContext'
+import ThemeAndVideoContext from '../../context/Themeandvideocontext'
 
 import {
   ItemLink,

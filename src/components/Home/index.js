@@ -6,7 +6,7 @@ import {AiOutlineClose, AiOutlineSearch} from 'react-icons/ai'
 
 import Header from '../Header'
 import NavigationBar from '../NavigationBar'
-import ThemeAndVideoContext from '../../context/ThemeAndVideoContext'
+import ThemeAndVideoContext from '../../context/Themeandvideocontext'
 import HomeVideos from '../HomeVideos'
 import FailureView from '../FailureView'
 

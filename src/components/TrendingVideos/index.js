@@ -6,7 +6,7 @@ import {HiFire} from 'react-icons/hi'
 
 import Header from '../Header'
 import NavigationBar from '../NavigationBar'
-import ThemeAndVideoContext from '../../context/ThemeAndVideoContext'
+import ThemeAndVideoContext from '../../context/Themeandvideocontext'
 import FailureView from '../FailureView'
 import VideoCard from '../VideoCard'
 

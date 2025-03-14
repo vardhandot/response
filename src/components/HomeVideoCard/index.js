@@ -2,7 +2,7 @@ import {Link} from 'react-router-dom'
 
 import {formatDistanceToNow} from 'date-fns'
 
-import ThemeAndVideoContext from '../../context/ThemeAndVideoContext'
+import ThemeAndVideoContext from '../../context/Themeandvideocontext'
 
 import {
   ListItem,
