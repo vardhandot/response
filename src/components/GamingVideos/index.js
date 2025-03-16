@@ -7,8 +7,8 @@ import {SiYoutubegaming} from 'react-icons/si'
 import Header from '../Header'
 import NavigationBar from '../NavigationBar'
 import ThemeAndVideoContext from '../../context/Themeandvideocontext'
-import FailureView from '../FailureView'
-import GameVideoCard from '../GameVideoCard'
+import FailureView from '../Failureview'
+import GameVideoCard from '../Gamevideocard'
 
 import {
   GamingContainer,

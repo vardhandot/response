@@ -5,7 +5,7 @@ import Loader from 'react-loader-spinner'
 import Header from '../Header'
 import NavigationBar from '../NavigationBar'
 import ThemeAndVideoContext from '../../context/Themeandvideocontext'
-import FailureView from '../FailureView'
+import FailureView from '../Failureview'
 import PlayVideoView from '../PlayVideoView'
 
 import {VideoDetailViewContainer, LoaderContainer} from './styledComponents'

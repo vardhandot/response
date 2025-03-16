@@ -8,7 +8,7 @@ import Header from '../Header'
 import NavigationBar from '../NavigationBar'
 import ThemeAndVideoContext from '../../context/Themeandvideocontext'
 import HomeVideos from '../HomeVideos'
-import FailureView from '../FailureView'
+import FailureView from '../Failureview'
 
 import {
   HomeContainer,
