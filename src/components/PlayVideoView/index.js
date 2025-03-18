@@ -46,15 +46,9 @@ const PlayVideoView = props => {
         const likeIconColor = isLiked ? '#2563eb' : '#64748b'
         const dislikeIconColor = isDisLiked ? '#2563eb' : '#64748b'
 
-        let isSaved
-        const index = savedVideos.findIndex(
+        const isSaved = savedVideos.some(
           eachVideo => eachVideo.id === videoDetails.id,
         )
-        if (index === -1) {
-          isSaved = false
-        } else {
-          isSaved = true
-        }
 
         const saveIconColor = isSaved ? '#2563eb' : textColor
 
@@ -82,7 +76,7 @@ const PlayVideoView = props => {
                     onClick={onClickLike}
                   >
                     <AiOutlineLike size={25} />
-                    <ButtonText>Like</ButtonText>
+                    Like
                   </SocialButton>
                 </BtnContainer>
                 <BtnContainer>
@@ -92,7 +86,7 @@ const PlayVideoView = props => {
                     onClick={onClickDislike}
                   >
                     <AiOutlineDislike size={25} />
-                    <ButtonText>Disike</ButtonText>
+                    Dislike
                   </SocialButton>
                 </BtnContainer>
                 <BtnContainer>
@@ -101,8 +95,7 @@ const PlayVideoView = props => {
                     color={saveIconColor}
                     onClick={onClickSave}
                   >
-                    <BiListPlus size={25} />
-                    <ButtonText>{isSaved ? 'Saved' : 'Save'}</ButtonText>
+                    <BiListPlus size={25} /> {isSaved ? 'Saved' : 'Save'}
                   </SocialButton>
                 </BtnContainer>
               </PlaySocialButtonsContainer>
